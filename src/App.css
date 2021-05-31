@@ -1,0 +1,15 @@
+.all-wrapper{
+  display: grid;
+  grid-template:
+  'h h'
+  'n c ';
+}
+
+.nav{
+  grid-area:n;
+  background-color: indianred;
+}
+.content{
+  grid-area:c;
+  background-color: goldenrod;
+}
