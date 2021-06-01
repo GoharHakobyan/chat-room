@@ -1,15 +1,38 @@
-.all-wrapper{
-  display: grid;
-  grid-template:
-  'h h'
-  'n c ';
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
 }
 
-.nav{
-  grid-area:n;
+.all-wrapper {
+  display: grid;
+  grid-template:
+    "h h"
+    "n c ";
+}
+
+.nav {
+  grid-area: n;
   background-color: indianred;
 }
-.content{
-  grid-area:c;
+.content {
+  grid-area: c;
   background-color: goldenrod;
+}
+
+button {
+  background-color: #34a4eb;
+  border: none;
+  color: white;
+  padding: 9px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 101px;
+}
+
+button:hover {
+  background-color: #3483eb;
 }

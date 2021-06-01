@@ -1,8 +1,19 @@
-.selectedPage{
-    font-weight: bold;
-    cursor: pointer;
+.numbersContainer {
+  margin: 20px;
+}
+.numbersContainer span {
+  padding: 2px;
+}
+.selectedPage {
+  font-weight: bold;
+  cursor: pointer;
 }
 .selectedPage:hover {
-    cursor: pointer;
-
+  cursor: pointer;
+}
+.card {
+  margin: 20px;
+}
+.cardImageContainer {
+  width: 100px;
 }
