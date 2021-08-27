@@ -1,0 +1,10 @@
+.all-wrapper {
+  display: grid;
+  grid-template:
+    "h h"
+    "n c ";
+}
+
+.content {
+  grid-area: c;
+}

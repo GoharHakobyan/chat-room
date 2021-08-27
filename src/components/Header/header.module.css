@@ -1,0 +1,26 @@
+.header {
+  grid-area: h;
+  background-color: rgb(66, 135, 245);
+  display: flex;
+  justify-content: space-between;
+  max-height: 3rem;
+}
+.header img {
+  width: 100%;
+}
+.logoWrapper {
+  width: 56px;
+  padding: 2px 10px;
+}
+.loginBlock {
+  float: right;
+}
+.loginBlock p {
+  color: white;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+.loginBlock a {
+  text-decoration: none;
+}

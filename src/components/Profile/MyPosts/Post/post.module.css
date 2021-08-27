@@ -1,0 +1,10 @@
+.mainContainer{
+display: flex;
+align-items: center;
+}
+.imgContainer{
+    width: 12%;
+}
+.imgContainer img{
+    width: 100%;
+}
